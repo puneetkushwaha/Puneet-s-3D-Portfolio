@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import { personalInfo } from "../constants";
 
 const Hero = () => {
+  const isMobile = window.innerWidth < 768;
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -21,13 +23,23 @@ const Hero = () => {
             <span className="text-electric-purple">{personalInfo.name}</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            Innovative {personalInfo.role}, <br className="sm:block hidden" />
+            Innovative {personalInfo.role},{" "}
+            <br className="sm:block hidden" />
             building web and mobile applications
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* 3D Canvas or Fallback Image */}
+      {isMobile ? (
+        <img
+          src="/fallback-hero.png" // 👉 Place a fallback image in `public` folder
+          alt="Hero"
+          className="w-full h-full object-cover absolute inset-0"
+        />
+      ) : (
+        <ComputersCanvas />
+      )}
 
       <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center">
         <a href="#about">
