@@ -31,7 +31,7 @@ const Hero = () => {
       </div>
 
 {/* 3D Canvas or Fallback Image */}
-<div className="absolute inset-0 w-full h-full z-0 mt-24 sm:mt-0">
+<div className="absolute inset-0 w-full h-full z-0 mt-28 sm:mt-0">
   {isMobile ? (
     <img
       src="/fallback-hero.png"
