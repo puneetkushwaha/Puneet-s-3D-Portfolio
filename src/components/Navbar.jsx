@@ -51,7 +51,7 @@ const Navbar = () => {
           >
             <a
               href={publicUrls.resume}
-              download="Shridhar_Rai_Resume.pdf"
+              download="Puneet Kushwaha resume.pdf"
               target="_blank"
             >
               Resume

@@ -4,30 +4,28 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   nextJs,
-  redux,
   tailwind,
-  angular,
   nodejs,
+  tensorflow,
   mongodb,
   java,
   mysql,
+  python,
+  express,
   git,
-  crmnext,
-  nickelfox,
-  newgen,
-  skillrisers,
-  proximus,
-  aptihealthWeb,
-  aptihealthApp,
-  zealWeb,
-  zealApp,
-  rollWeb,
-  rollApp,
+  gdg,
+  aarambh,
+  vervenova,
+  hydra,
+  jarvis,
+  quiz,
+  brandly,
+  verve,
+  interiohubb,
   linkedIn,
   github,
 } from "../assets";
@@ -56,22 +54,23 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "NodeJs Developer",
+    title: "Java Backend Developer",
     icon: backend,
   },
   {
-    title: "Javascript Developer",
+    title: "AI & Data Science Enthusiast",
     icon: creator,
   },
+  {
+    title: "React & Next.js Developer",
+    icon: mobile, 
+  },
 ];
+
 
 const technologies = [
   {
@@ -87,8 +86,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Tensorflow",
+    icon: tensorflow,
   },
   {
     name: "React JS",
@@ -99,16 +98,16 @@ const technologies = [
     icon: nextJs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Python",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Angular",
-    icon: angular,
+    name: "Express JS",
+    icon: express,
   },
   {
     name: "Node JS",
@@ -134,236 +133,217 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Crmnext",
-    company_website: "https://www.businessnext.com/crm",
-    icon: crmnext,
-    iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    title: "Founder & Full Stack Developer",
+    company_name: "Verve Nova",
+    company_website: "https://www.linkedin.com/company/verve-nova/",
+    icon: vervenova, // replace with your actual logo import
+    iconBg: "#000000",
+    date: "Nov 2024 – Apr 2025",
     points: [
-      "Developed Flow and Layout Designers for HDFC, PNB, IOB, and Utkarsh Bank.",
-      "Boosted team efficiency by 50% by implementing monorepo architecture and reusable Design-System.",
-      "Integrated GenAI models to automate flow creation from user prompts, eliminating manual configuration efforts.",
-      "Integrated unit testing with 80% code coverage, enhancing code reliability and reducing bugs.",
+      "Founded a tech service agency focused on delivering web solutions for startups and individuals.",
+      "Developed 15+ client projects using React, Next.js, Node.js, and Firebase with pixel-perfect UI.",
+      "Created project content and shared weekly posts on LinkedIn, increasing business visibility.",
+      "Managed team collaboration, client communication, and tech stack decisions end-to-end.",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
-    iconBg: "#E6DEDD",
-    date: "Jan 2022 - Nov 2023",
+    title: "Social Media Manager",
+    company_name: "Google Developer Groups (GDG) - Campus",
+    company_website: "https://gdg.community.dev/",
+    icon: gdg,
+    iconBg: "#ffffff",
+    date: "Sep 2024 – Jun 2025",
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Handled design and content for GDG social platforms including Instagram and LinkedIn.",
+      "Boosted engagement by creating appealing reels, event posters, and project highlights.",
+      "Collaborated with team members to ensure timely promotion of tech events and bootcamps.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Newgen Software",
-    company_website: "https://newgensoft.com/home-india/",
-    icon: newgen,
-    iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
+    title: "Co-Lead",
+    company_name: "Aarambh Community",
+    company_website: "https://aarambh-community.vercel.app/", // update as needed
+    icon: aarambh,
+    iconBg: "#1e1e1e",
+    date: "Apr 2024 – Present",
     points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
+      "Planned and executed tech events, workshops, and mentorship drives within the college.",
+      "Guided community members in project building, Git, and team collaboration workflows.",
+      "Promoted developer culture through regular learning sessions and peer-based mentoring.",
     ],
   },
   {
-    title: "Software Engineer Intern",
-    company_name: "Skillrisers",
-    company_website: "https://www.skillrisers.com/",
-    icon: skillrisers,
-    iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
+    title: "Web Development Lead",
+    company_name: "Aarambh Community",
+    company_website: "https://aarambh-community.vercel.app/",
+    icon: aarambh,
+    iconBg: "#1e1e1e",
+    date: "Apr 2024 – Present",
     points: [
-      "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
-      "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
-      "Collaborated effectively with the development team, actively participating in code reviews and resolving technical challenges.",
-      "Demonstrated strong problem-solving skills, consistently delivering high-quality code and meeting project deadlines.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Self-employed",
-    company_website: "https://proximus.surge.sh/index.html",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
-    points: [
-      "Spearheaded the development of a fully responsive website for the college coding society.",
-      "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
-      "Organized informative sessions on cutting-edge technologies, including JavaScript and ReactJs.",
-      "Curated and designed challenging coding problems for college competitions.",
+      "Led frontend development for community web projects and helped design the official website.",
+      "Maintained responsive UI/UX, optimized performance, and ensured cross-device compatibility.",
+      "Mentored juniors on HTML, CSS, JavaScript, React and GitHub workflows.",
     ],
   },
 ];
 
+
 const projects = [
   {
-    name: "Aptihealth Web",
+    name: "Brandly AI",
     description:
-      "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
+      "Brandly AI is a smart brand name and tagline generator built using Next.js and OpenAI API. It helps startups and creators instantly generate catchy brand names, taglines, and ideas based on input keywords and niche.",
+  tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: brandly,
+    hosted_link: "https://brandlyai.vercel.app/",
+  },
+  {
+    name: "Verve Nova",
+    description:
+      "A stylish brand portfolio site for a modern fashion and lifestyle company, built under Verve Nova agency. Features sleek UI and responsive layout built with React.",
     tags: [
       {
         name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "redux",
+        name: "branding",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "responsive",
         color: "pink-text-gradient",
       },
     ],
-    image: aptihealthWeb,
-    hosted_link: "https://www.aptihealth.com/",
+    image: verve,
+    hosted_link: "https://vervenova.netlify.app/",
   },
   {
-    name: "Aptihealth App",
+    name: "InterioHubb",
     description:
-      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
+      "A platform for interior and exterior design solutions, built using core frontend tech. Focused on aesthetic, functional, and personalized spaces.",
     tags: [
       {
-        name: "react-native",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "sendbird",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "twilio",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: aptihealthApp,
-    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
+    image: interiohubb,
+    hosted_link: "https://interiohubb.netlify.app/",
   },
   {
-    name: "Zeal Web",
+    name: "Jarvis AI Assistant",
     description:
-      "The Zeal website elevates the experience of enjoying activities with trusted friends, fostering connections and making every interaction exciting.",
-    tags: [
+      "An offline intelligent desktop assistant built using Python that performs voice-activated tasks like opening apps, replying via speech, automating system tasks, and running offline LLMs. Integrated OCR, WhatsApp automation, and GUI using Tkinter.",
+  tags: [
       {
-        name: "reactjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "llama.cpp",
         color: "green-text-gradient",
+      },
+      {
+        name: "speech-recognition",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jarvis,
+    hosted_link:
+      "https://github.com/puneetkushwaha/Jarvis-AI",
+  },
+  {
+    name: "Quiz Trek",
+    description:
+      "Smart news and current affairs platform offering daily and monthly updates. Built using Next.js and Firebase for real-time content and auth.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
       },
       {
         name: "firebase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zealWeb,
-    hosted_link: "https://getzeal.co/",
-  },
-  {
-    name: "Zeal App",
-    description:
-      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sendgrid",
         color: "green-text-gradient",
       },
       {
-        name: "typescript",
+        name: "authentication",
         color: "pink-text-gradient",
       },
     ],
-    image: zealApp,
+    image: quiz,
+    hosted_link: "https://quiz-trek--five.vercel.app/",
+  },
+  {
+    name: "Hydra AI",
+    description:
+      "Hydra AI is a local LLM-powered chatbot built using Python and `text-generation-webui`. It uses models like LLaMA, Mistral, and Phi-2 via GGUF format, allowing completely offline intelligent conversations with custom personality and Desi Hinglish tone.",
+  tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "text-generation-webui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "llama-gguf",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hydra,
     hosted_link:
-      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
-  },
-  {
-    name: "Roll Web",
-    description:
-      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "formik",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollWeb,
-    hosted_link: "https://app.tryroll.com/",
-  },
-  {
-    name: "Roll App",
-    description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
-    tags: [
-      {
-        name: "react-native-web",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "storybook",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollApp,
-    hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
+      "https://github.com/puneetkushwaha/Hydra-AI-2.0",
   },
 ];
 
 const personalInfo = {
-  name: "Shridhar",
-  fullName: "Shridhar Rai",
-  email: "raishridhar619@gmail.com",
-  role: "Software Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
-  Node.js etc. I'm a quick learner and collaborate closely with clients to
-  create efficient, scalable, and user-friendly solutions that solve
-  real-world problems. Let's work together to bring your ideas to life!`,
-  projectsIntro: `Following projects showcases my skills and experience through
-  real-world examples of my work. Each project is briefly described with
-  live demos. It reflects my ability to solve complex problems, work
-  with different technologies, and manage projects effectively.`,
+  name: "Puneet",
+  fullName: "Puneet Kushwaha",
+  email: "puneetkushwaha9452@gmail.com",
+  role: "AI & Data Science Explorer",
+  about: `I'm a passionate full stack developer and tech community contributor with experience in building modern, scalable web apps using JavaScript, React.js, Next.js, Node.js, and Firebase. I'm also exploring AI and data science, and actively working on LLM-powered assistants and real-world solutions.
+
+I’ve founded Verve Nova, a tech service agency helping startups build their online presence. I also contribute to my college tech community as a co-lead at Aarambh and manage social content at GDG Campus. Whether it's solving real-world problems with code or mentoring juniors, I love bringing impactful ideas to life.`,
+  
+  projectsIntro: `Here are some of the projects I've worked on — from client-based web solutions under Verve Nova to AI-powered tools like Jarvis and Hydra. These projects showcase my skills across full stack development, system automation, and machine learning. Each project includes a description and link, reflecting my focus on clean code, problem-solving, and technical versatility.`,
 };
+
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+    "https://drive.google.com/file/d/1S70B3l-a-FX5suwUj03E5On2iTTLIYf3/view?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "https://www.linkedin.com/in/shridharrai/",
+      link: "https://www.linkedin.com/in/puneettkushwaha/",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/shridharrai",
+      link: "https://github.com/puneetkushwaha",
       icon: github,
     },
   },
