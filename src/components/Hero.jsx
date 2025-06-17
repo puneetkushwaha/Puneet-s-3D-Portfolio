@@ -8,7 +8,7 @@ const Hero = () => {
   const isMobile = window.innerWidth < 768;
 
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto overflow-hidden">
       <div
         className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 inset-0`}
       >
@@ -30,18 +30,22 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* 3D Canvas or Fallback Image */}
-      {isMobile ? (
-        <img
-          src="/fallback-hero.png" // 👉 Place a fallback image in `public` folder
-          alt="Hero"
-          className="w-full h-full object-cover absolute inset-0"
-        />
-      ) : (
-        <ComputersCanvas />
-      )}
+{/* 3D Canvas or Fallback Image */}
+<div className="absolute inset-0 w-full h-full z-0 mt-24 sm:mt-0">
+  {isMobile ? (
+    <img
+      src="/fallback-hero.png"
+      alt="Hero"
+      className="w-full h-full object-contain"
+    />
+  ) : (
+    <ComputersCanvas />
+  )}
+</div>
 
-      <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center">
+
+
+      <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center z-10">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
