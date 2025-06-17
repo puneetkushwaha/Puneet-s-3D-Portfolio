@@ -135,7 +135,7 @@ const experiences = [
   {
     title: "Founder & Full Stack Developer",
     company_name: "Verve Nova",
-    company_website: "https://www.linkedin.com/company/verve-nova/",
+    company_website: "https://www.linkedin.com/company/verve-niva/?viewAsMember=true",
     icon: vervenova, // replace with your actual logo import
     iconBg: "#000000",
     date: "Nov 2024 – Apr 2025",
@@ -149,7 +149,7 @@ const experiences = [
   {
     title: "Social Media Manager",
     company_name: "Google Developer Groups (GDG) - Campus",
-    company_website: "https://gdg.community.dev/",
+    company_website: "https://www.linkedin.com/company/gdgbncet/?viewAsMember=true",
     icon: gdg,
     iconBg: "#ffffff",
     date: "Sep 2024 – Jun 2025",
@@ -162,7 +162,7 @@ const experiences = [
   {
     title: "Co-Lead",
     company_name: "Aarambh Community",
-    company_website: "https://aarambh-community.vercel.app/", // update as needed
+    company_website: "https://www.linkedin.com/company/aarambhcommunity/?viewAsMember=true", 
     icon: aarambh,
     iconBg: "#1e1e1e",
     date: "Apr 2024 – Present",
@@ -175,7 +175,7 @@ const experiences = [
   {
     title: "Web Development Lead",
     company_name: "Aarambh Community",
-    company_website: "https://aarambh-community.vercel.app/",
+    company_website: "https://www.linkedin.com/company/aarambhcommunity/?viewAsMember=true",
     icon: aarambh,
     iconBg: "#1e1e1e",
     date: "Apr 2024 – Present",
